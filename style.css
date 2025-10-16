@@ -8,20 +8,17 @@
 body {
     font-family: "Roboto", sans-serif;
     color: #BADFDB;
-
-}
-
-
-.container {
-    max-width: 1000px;
+    /* height: 2000px; */
     margin: 0 auto;
-    padding: 0 20px;
+    width: 100%;
+
 }
 
 /* Header & Nav */
 .main {
     flex: 1;
 }
+
 .main-header {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
     top: 0;
@@ -127,6 +124,10 @@ body {
         justify-content: center;
         align-items: center;
     }
+    .nav-list {
+        flex-direction: column;
+        padding-top: 20px;
+    }
     .hero {
         flex-direction: column;
         margin: 20px;
@@ -137,17 +138,31 @@ body {
     .hero-info {
         align-items: center;
     }
+
     .hero-info h1 {
         justify-content: center;
         align-items: center;
         font-size: 1.5rem;
     }
+
     .hero-info p {
         text-align: center;
         font-size: 1rem;
     }
+
     .hero-button {
         justify-content: center;
         align-items: center;
     }
+    .footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px;
+    }
+
 }
